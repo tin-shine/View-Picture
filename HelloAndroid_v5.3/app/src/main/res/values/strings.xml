@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Group3</string>
+    <string name="welcome_info">Welcome</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_home">首页</string>
+    <string name="member_info">我的信息</string>
+    <string name="import_pic">导入图片</string>
+    <string name="local_pic">本地图片</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="camera">相机</string>
+    <string name="album">从相册导入</string>
+
+    <string name="deleteItem">多选</string>
+    <string name="OnlinePicture">在线图片</string>
+    <string name="preference_file_key">token</string>
+    <string name="log_out">注销</string>
+</resources>

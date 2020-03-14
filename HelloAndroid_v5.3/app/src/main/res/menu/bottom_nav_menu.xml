@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/member_info"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/member_info" />
+
+    <item
+        android:id="@+id/import_picture"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/import_pic" />
+
+    <item
+        android:id="@+id/local_picture"
+        android:icon="@drawable/ic_local_pic_24dp"
+        android:title="@string/local_pic" />
+    <item
+        android:id="@+id/online_picture"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/OnlinePicture"/>
+</menu>

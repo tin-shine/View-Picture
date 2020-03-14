@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.helloandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 写sd卡的权限 -->
+11-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:6:5-80
+11-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 读sd卡权限 -->
+12-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:7:5-81
+15-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:7:22-78
+16
+17    <application
+17-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:12:5-44:19
+18        android:name="com.example.helloandroid.model.MyAPPContext"
+18-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:14:9-43
+19        android:allowBackup="true"
+19-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:15:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:16:9-41
+24        android:networkSecurityConfig="@xml/network_security_config"
+24-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:20:9-69
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:18:9-35
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:19:9-40
+28        <meta-data
+28-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:22:9-24:63
+29            android:name="com.google.android.actions"
+29-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:23:13-54
+30            android:resource="@xml/network_security_config" />
+30-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:24:13-60
+31
+32        <activity android:name="com.example.helloandroid.activities.OnLinePicture" />
+32-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:26:9-62
+32-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:26:19-59
+33        <activity android:name="com.example.helloandroid.activities.FullScreenPicture" />
+33-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:27:9-66
+33-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:27:19-63
+34        <activity android:name="com.example.helloandroid.activities.OnlineShow" />
+34-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:28:9-59
+34-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:28:19-56
+35        <activity android:name="com.example.helloandroid.activities.ShowPicture" />
+35-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:29:9-60
+35-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:29:19-57
+36        <activity android:name="com.example.helloandroid.activities.SelectPicture" />
+36-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:30:9-62
+36-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:30:19-59
+37        <activity
+37-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:31:9-33:65
+38            android:name="com.example.helloandroid.activities.NavigationActivity"
+38-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:32:13-58
+39            android:label="@string/title_activity_navigation" />
+39-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:33:13-62
+40        <activity android:name="com.example.helloandroid.activities.RegisterActivity" />
+40-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:34:9-65
+40-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:34:19-62
+41        <activity android:name="com.example.helloandroid.activities.LoginActivity" />
+41-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:35:9-62
+41-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:35:19-59
+42        <activity android:name="com.example.helloandroid.activities.SplashActivity" >
+42-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:36:9-42:20
+42-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:36:19-60
+43            <intent-filter>
+43-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:37:13-41:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:38:17-69
+44-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:38:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:40:17-77
+46-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:40:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.helloandroid.activities.MainActivity" />
+49-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:43:9-61
+49-->C:\Users\tinshine\MyFiles\CodeFiles\Android\HelloAndroid_v5.4\HelloAndroid_v5.3\app\src\main\AndroidManifest.xml:43:19-58
+50
+51        <provider
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+52            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+53            android:authorities="com.example.helloandroid.lifecycle-process"
+53-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+54            android:exported="false"
+54-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+55            android:multiprocess="true" />
+55-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+56    </application>
+57
+58</manifest>
